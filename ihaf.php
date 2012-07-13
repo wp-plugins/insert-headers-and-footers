@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Insert Header and Footer
+Plugin Name: Insert Headers and Footers
 Plugin URI: 
 Description: Allows you to insert code or text in the header or footer of your WordPress blog
 Version: 1.0
