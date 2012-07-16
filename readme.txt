@@ -1,5 +1,5 @@
 ﻿=== Plugin Name ===
-Contributors: David Pegg
+Contributors: iamdpegg
 Tags: header, footer, headers, footers, content, wpmu, meta, meta tags
 Requires at least: 2.7
 Tested up to: 3.4.1
