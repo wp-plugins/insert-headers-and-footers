@@ -3,7 +3,7 @@
 Plugin Name: Insert Headers and Footers
 Plugin URI: 
 Description: Allows you to insert code or text in the header or footer of your WordPress blog
-Version: 1.0
+Version: 1.1
 Author: iamdpegg
 Author URI: 
 License: This software is distributed in the hope that it will be useful,
