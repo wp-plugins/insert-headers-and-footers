@@ -1,9 +1,9 @@
-﻿=== Plugin Name ===
+=== Plugin Name ===
 Contributors: iamdpegg, smub
 Tags: header, footer, headers, footers, content, wpmu, meta, meta tags
 Requires at least: 2.7
 Tested up to: 3.4.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,3 +40,6 @@ Insert Headers and Footers is a simple plugin that lets you add scripts like Goo
 
 = 1.1 =
 * fixed unecessary CSS loading
+
+= 1.2 =
+* cleaned up code
