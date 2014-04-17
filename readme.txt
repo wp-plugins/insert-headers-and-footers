@@ -1,12 +1,11 @@
-=== Plugin Name ===
-Contributors: iamdpegg, smub
+=== Insert Headers and Footers ===
+Contributors: iamdpegg, smub, n7studios
 Tags: header, footer, headers, footers, content, wpmu, meta, meta tags
-Requires at least: 2.7
-Tested up to: 3.4.1
-Stable tag: 1.3
+Requires at least: 3.6
+Tested up to: 3.9
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
 
 This plugin allows you to add extra scripts to the header and footer of your blog by hooking into wp_head and wp_footer.
 
@@ -24,20 +23,22 @@ Note for Beginners: Like all plugins available for download, Insert Headers And 
 
 If you like using this plugin, then please leave us a good rating. If you have support questions just ask them here in the support forum.
 
-Lastly, if you like this plugin then follow WPBeginner on [Twitter](http://twitter.com/wpbeginner "Twitter"), [Facebook](http://facebook.com/wpbeginner "Facebook"), and [Google+](https://plus.google.com/101634180904808003404/ "Google+")
-
-
+Lastly, if you like this plugin then follow WPBeginner on:
+[Twitter](http://twitter.com/wpbeginner "Twitter")
+[Facebook](http://facebook.com/wpbeginner "Facebook")
+[Google+](https://plus.google.com/101634180904808003404/ "Google+")
 
 == Installation ==
 
 1. Upload `insert-headers-and-footers` directory to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Configure plugin (go to the Settings/Insert Headers and Footers)
-1. Enjoy :)
-
-
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Configure plugin (go to the Settings/Insert Headers and Footers)
 
 == Changelog ==
+
+= 1.3.1 =
+* Improved settings UI for WordPress 3.8+
+* Bumped minimum version requirement
 
 = 1.3 =
 * fixed readme file
