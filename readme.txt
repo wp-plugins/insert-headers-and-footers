@@ -1,5 +1,5 @@
 === Insert Headers and Footers ===
-Contributors: iamdpegg, smub, n7studios
+Contributors: WPbeginner, iamdpegg, smub, n7studios
 Tags: header, footer, headers, footers, content, wpmu, meta, meta tags
 Requires at least: 3.6
 Tested up to: 3.9
