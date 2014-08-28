@@ -2,7 +2,7 @@
 Contributors: WPbeginner, iamdpegg, smub, n7studios
 Tags: header, footer, headers, footers, content, wpmu, meta, meta tags
 Requires at least: 3.6
-Tested up to: 3.9
+Tested up to: 4.0
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -35,6 +35,11 @@ Lastly, if you like this plugin then follow WPBeginner on:
 3. Configure plugin (go to the Settings/Insert Headers and Footers)
 
 == Changelog ==
+
+= 1.3.2 =
+* Fix: Dashboard widget logo URL when RSS feed cannot be loaded
+* Fix: WordPress 4.0 support
+* Added: POT language file
 
 = 1.3.1 =
 * Improved settings UI for WordPress 3.8+

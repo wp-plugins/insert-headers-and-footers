@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Insert Headers and Footers
 * Plugin URI: http://www.wpbeginner.com/
-* Version: 1.3.1
+* Version: 1.3.2
 * Author: WPBeginner
 * Author URI: http://www.wpbeginner.com/
 * Description: Allows you to insert code or text in the header or footer of your WordPress blog
@@ -26,13 +26,7 @@
 */
 
 /**
-* Insert Post Ads Class
-* 
-* @package WPBeginner
-* @subpackage Insert Post Ads
-* @author Tim Carr
-* @version 1.3.1
-* @copyright WPBeginner
+* Insert Headers and Footers Class
 */
 class InsertHeadersAndFooters {
 	/**
