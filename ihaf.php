@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Insert Headers and Footers
 * Plugin URI: http://www.wpbeginner.com/
-* Version: 1.3.2
+* Version: 1.3.3
 * Author: WPBeginner
 * Author URI: http://www.wpbeginner.com/
 * Description: Allows you to insert code or text in the header or footer of your WordPress blog
@@ -33,14 +33,15 @@ class InsertHeadersAndFooters {
 	* Constructor
 	*/
 	public function __construct() {
+
 		// Plugin Details
-        $this->plugin = new stdClass;
-        $this->plugin->name = 'insert-headers-and-footers'; // Plugin Folder
-        $this->plugin->displayName = 'Insert Headers and Footers'; // Plugin Name
-        $this->plugin->version = '1.3.1';
-        $this->plugin->folder = WP_PLUGIN_DIR.'/'.$this->plugin->name; // Full Path to Plugin Folder
-        $this->plugin->url = WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__));
-        
+        $this->plugin               = new stdClass;
+        $this->plugin->name         = 'insert-headers-and-footers'; // Plugin Folder
+        $this->plugin->displayName  = 'Insert Headers and Footers'; // Plugin Name
+        $this->plugin->version      = '1.3.3';
+        $this->plugin->folder       = plugin_dir_path( __FILE__ );
+        $this->plugin->url          = plugin_dir_url( __FILE__ );
+
         // Dashboard Submodule
         if (!class_exists('WPBeginnerDashboardWidget')) {
 			require_once($this->plugin->folder.'/_modules/dashboard/dashboard.php');

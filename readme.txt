@@ -1,8 +1,8 @@
 === Insert Headers and Footers ===
 Contributors: WPbeginner, iamdpegg, smub, n7studios
-Tags: header, footer, headers, footers, content, wpmu, meta, meta tags
+Tags: header, footer, headers, footers, content, wpmu, meta, meta tags, scripts, js, css, google analytics
 Requires at least: 3.6
-Tested up to: 4.0
+Tested up to: 4.3
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -35,6 +35,10 @@ Lastly, if you like this plugin then follow WPBeginner on:
 3. Configure plugin (go to the Settings/Insert Headers and Footers)
 
 == Changelog ==
+
+= 1.3.3 =
+* Tested with WordPress 4.3
+* Fix: plugin_dir_path() and plugin_dir_url() used for Multisite / symlink support
 
 = 1.3.2 =
 * Fix: Dashboard widget logo URL when RSS feed cannot be loaded
